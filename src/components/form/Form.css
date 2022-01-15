@@ -1,0 +1,77 @@
+.form-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+}
+
+.form{
+    width: 60%;
+    padding-top: 3rem;
+    font-size: 1.6rem;
+    color: var(--color4);
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: var(--branding);
+    padding: 1rem;
+    font-family: var(--font-2);
+    font-weight: 500;
+    background-color: var(--color2);
+}
+
+.form-inputs input, .form-inputs select{
+    border: none;
+    border-bottom: 1px solid var(--black);
+    height: 3rem;
+    outline: none;
+    font-size: 1.7rem;
+    background-color: var(--color2);
+    font-weight: 500;
+}
+
+input:focus {
+    color: var(--branding);
+    border-bottom: 1px solid var(--branding);
+  }
+
+.form-inputs textarea{
+    height: 10rem;
+    border-bottom: 1px solid var(--black);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: var(--color2);
+    font-family: var(--font-2);
+    font-size: 1.6rem;
+    color: var(--color4);
+    font-weight: 500;
+    outline: none;
+}
+
+.form-inputs textarea:focus {
+    color: var(--branding);
+    border-bottom: 1px solid var(--branding);
+  }
+
+
+@media screen and (min-width: 720px){
+
+    .form-content{
+        width: 100%;
+    }
+
+    .form {
+        padding-top: 6rem;
+    }
+
+}
+
+.input-error{
+    color: red;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,44 @@
+.services {
+    background-color: var(--color2);
+    text-align: center;
+    padding: 3rem;
+}
+
+.text-services {
+    padding-bottom: 3rem;
+}
+
+.i-text {
+    color: var(--color6);
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0.5rem 8rem 2rem 8rem;
+}
+
+
+@media screen and (min-width: 984px){
+
+.services {
+    padding: 8rem;
+}
+
+.title-services {
+    padding-bottom: 2rem;
+}
+
+.text-services {
+    padding: 0 15rem 6rem 15rem;
+}
+
+.icons-services {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.i-text {
+    font-size: 2.1rem;
+}
+
+}
