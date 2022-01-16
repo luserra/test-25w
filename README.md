@@ -1,4 +1,4 @@
-<h1>25Watts test</h1>
+<h1>25W test</h1>
 
 Landing page desarrollada en React.JS
 
