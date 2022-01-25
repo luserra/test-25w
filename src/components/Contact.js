@@ -27,7 +27,7 @@ const Contact = () => {
         </div>
 
         <div className="second-gray">
-            <img src="/assets/images/contact.png" className="img-contact" alt="Contact"/>
+            <img src="assets/images/contact.png" className="img-contact" alt="Contact"/>
         </div>
       </div>
     </>
